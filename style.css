@@ -11,10 +11,3 @@ img {
     opacity: 1;
 }
 
-p {
-    padding-top: 150px;
-}
-.fixed {
-    position: fixed;
-    width: 100%;
-}
