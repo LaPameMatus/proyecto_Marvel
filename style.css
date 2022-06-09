@@ -6,8 +6,74 @@ body {
     font-size: 20px;
 }
 
-img {
+.img {
     width: 189px;
-    opacity: 1;
+
 }
+li{
+    list-style: none;
+}
+
+
+footer {
+    position: relative;
+    background-color: black;
+    width: 100%;;
+    color: #fff;
+    height: 130px;
+} 
+
+.container-footer {
+    position: relative;
+   
+}
+
+.copyright {
+    position: absolute;  
+    color: rgba(255, 255, 255, 0.59);
+    margin: 60px;
+    font-size: 20px;
+}
+
+.imgfooter {
+    position: absolute;
+    width: 130px;
+    right: 45%;
+    margin: 30px;
+}
+
+.instagram {
+    position: absolute;
+    right: 40px;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+.facebook {
+    position: absolute;
+    right: 80px;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+.twitter {
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.redes:hover {
+    color: rgba(9, 212, 9, 0.775);
+}
+
+
+
+
+
+
+
+
+
 
