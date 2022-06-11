@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
    
 }
@@ -104,9 +107,29 @@ right: 29%;
 
 
 .card {
+    overflow: hidden;
     display: inline-block;
     margin-left: 100px;
     margin-bottom: 50px;
-    height: ;
+    box-shadow: 0px 1px 10px rgba(255,255,255,2);
+    cursor: default;
+    border-radius: 10px;
+    transition: all 400ms ease;
 }
 
+.card:hover{
+    box-shadow: 5px 5px 20px  rgba(255,255,255,4);
+    transform: translateY(-3%);
+
+}
+
+.card h3 {
+    text-align: center;
+
+}
+.card div p {
+    color: #6a6a6a;
+    text-align: center;
+    height: 170px;
+
+}
