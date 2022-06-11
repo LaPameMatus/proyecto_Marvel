@@ -5,8 +5,8 @@
 body {
     font-size: 20px;
     margin-top: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 0px;
+    margin-right: 5px;
     background-color: black;
 
 }
@@ -23,9 +23,9 @@ li{
 footer {
     position: relative;
     background-color: black;
-    width: 100%;;
+    width: 100%;
     color: #fff;
-    height: 130px;
+    height: 130px; 
 } 
 
 .container-footer {
@@ -105,6 +105,8 @@ right: 29%;
 
 .card {
     display: inline-block;
-    margin: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: ;
 }
 
