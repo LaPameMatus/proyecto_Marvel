@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+
+}
+body {
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-right: 5px;
+    background-color: black;
+
+}
+
+.img {
+    width: 189px;
+
+}
+li{
+    list-style: none;
+}
+
+
+footer {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    height: 130px; 
+} 
+
+.container-footer {
+    position: relative;
+
+}
+
+.copyright {
+    position: absolute;  
+    color: rgba(255, 255, 255, 0.59);
+    margin: 60px;
+    font-size: 20px;
+}
+
+.imgfooter {
+    position: absolute;
+    width: 130px;
+    right: 45%;
+    margin: 30px;
+}
+
+.instagram {
+    position: absolute;
+    right: 40px;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+.facebook {
+    position: absolute;
+    right: 80px;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+.twitter {
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.redes:hover {
+    color: rgba(9, 212, 9, 0.775);
+}
+@media (max-width:956px){
+    .imgfooter {
+        right: 25%;
+    }
+}
+@media (max-width:702px){
+.copyright {
+    margin: 0;
+    top:100px;
+    left: 30%;
+    font-size: 15px;
+}
+.imgfooter { 
+    width: 100px;
+    right: 35%;
+    margin-top: 5px;
+}
+
+.instagram {
+    right: 37%;
+}
+.facebook {
+    right: 45%;
+}
+.twitter{
+right: 29%;
+}
+}
+
+
+.card {
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 10px rgba(255,255,255,2);
+    cursor: default;
+    border-radius: 10px;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px  rgba(255,255,255,4);
+    transform: translateY(-3%);
+
+}
+
+.card h3 {
+    text-align: center;
+
+}
+.card div p {
+    color: #6a6a6a;
+    text-align: center;
+    height: 170px;
+
+}
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
