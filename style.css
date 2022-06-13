@@ -14,6 +14,7 @@ body {
 
 }
 
+
 .img {
     width: 189px;
 
@@ -133,3 +134,8 @@ right: 29%;
     height: 170px;
 
 }
+.stanlee {
+    box-shadow: 10px 10px 40px rgba(255,255,255,10);
+    
+}
+/*comentar*/
