@@ -76,9 +76,9 @@ footer {
     color: rgba(9, 212, 9, 0.775);
 }
 @media (max-width:956px){
-    .imgfooter {
-        right: 25%;
-    }
+   .imgfooter {
+    right: 25%;
+   }
 }
 @media (max-width:702px){
 .copyright {
@@ -168,8 +168,4 @@ right: 29%;
     .benviar {
         margin: 10px;
     }
-    
-    .start {
-        align-items: flex-start;
-    }
-    
+
