@@ -139,3 +139,37 @@ right: 29%;
     z-index: -1;
 }
 
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.59);
+    
+    
+    }
+    
+    section input {
+        width: 56%;
+        margin: 5px;    
+    }
+    
+    .mensaje {
+        width: 56%;
+        height: 200px;
+        max-height: 400px;
+        min-height: 200px;
+        margin: 5px;
+        
+    
+    }
+    
+    .benviar {
+        margin: 10px;
+    }
+    
+    .start {
+        align-items: flex-start;
+    }
+    
