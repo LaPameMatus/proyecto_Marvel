@@ -138,4 +138,25 @@ right: 29%;
     box-shadow: 10px 10px 40px rgba(255,255,255,10);
     
 }
-/*comentar*/
+/*contacto*/
+.flex-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form{
+    min-width: 200px;
+    flex: 1;
+    text-align: right;
+}
+
+.form-img {
+    flex: 2
+}
+ .form__img img{
+    width: 200px;
+
+
+    
+ }
