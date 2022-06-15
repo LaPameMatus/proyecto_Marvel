@@ -8,7 +8,7 @@
 
 h1,h2, h4,p {
     font-family: marvel;
-    color: rgba(255, 0, 0, 0.822);
+    color: rgba(208, 10, 10, 0.939);
     text-align: center;
 }
 body {
@@ -55,6 +55,8 @@ audio{
     color: rgba(255, 255, 255, 0.59);
     margin: 60px;
     font-size: 20px;
+	font-family: 'Bebas Neue', cursive, 'Times New Roman', Times, serif;
+	;
 }
 
 .imgfooter {
@@ -89,10 +91,7 @@ audio{
 .redes:hover {
     color: rgba(9, 212, 9, 0.775);
 }
-@font-face{
-    font-family: marvel;
-    src: url(/tipografia/marvel.otf);
-}
+
 @media (max-width:956px){
     .imgfooter {
         right: 25%;
@@ -126,6 +125,7 @@ right: 29%;
 
 }
 
+
 .card {
     overflow: hidden;
     display: inline-block;
@@ -158,6 +158,72 @@ right: 29%;
 	width: 100%;
 
 }
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(255, 255, 255, 0.69);
+    
+    
+    }
+    
+    section input {
+        width: 56%;
+        margin: 5px; 
+        background-color:#6a6a6a ; 
+        color:rgba(255, 255, 255, 0.676);
+        border-radius: 7px;
+        margin: 7px;
+        padding: 7px;
+        border: none;
+        outline: none;
+        border-bottom: solid 3px rgba(0, 128, 0, 0.528);
+        
+    }
+
+    section input:focus {
+        background: linear-gradient(to bottom, transparent, #6a6a6a);
+    }
+    
+    .mensaje {
+        resize: none;
+        border-radius: 9px;
+        width: 56%;
+        height: 200px;
+        max-height: 400px;
+        min-height: 200px;
+        margin: 5px;
+        background-color:#6a6a6a;
+        padding: 7px;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-bottom: solid 3px rgba(0, 128, 0, 0.528);
+        
+    
+    }
+    
+.mensaje:focus {
+        background: linear-gradient(to bottom, transparent, #6a6a6a);
+    }
+    
+    .benviar {
+        margin: 10px;
+        width: 33%;
+    }
+    
+    .start {
+        align-items: flex-start;
+    }
+
+    .color-imput::placeholder{
+        color: rgba(255, 255, 255, 0.781);
+    } 
+    .mensaje::placeholder{
+        color: rgba(255, 255, 255, 0.781);
+    }
+
 #particles-js {
 	height: 100vh; 
 	width: 100%;
@@ -565,7 +631,6 @@ time {
 	display: flex;
 	margin-left: 4px;
 }
-
 
 
 
