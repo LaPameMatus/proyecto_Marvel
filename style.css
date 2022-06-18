@@ -7,9 +7,37 @@
 }
 
 h1,h2, h4,p {
-    font-family: marvel;
-    color: rgba(208, 10, 10, 0.939);
+    font-family: "marvel";    
     text-align: center;
+	color: #fff;
+	
+}
+h1{
+	font-size: 36pt;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+	transition: all 300ms ease-in-out;
+}
+h1::before{
+	content: var(--l);
+	position: absolute;
+	transform: scale(1.1);
+	filter: blur(15px);
+}
+h1::after{
+	content: var(--l);
+	position: absolute;
+	top: 80%;
+	left: 0;
+	filter: blur(30px);
+	transform: rotate(50deg);
+}
+h1:hover{
+	filter: contrast(250%);
+}
+h1:nth-child(Peliculas Marvel){
+	color: #ff0000;
 }
 body {
     font-size: 20px;
@@ -40,6 +68,10 @@ footer {
 	border-top-left-radius: calc(0.25rem - 1px); 
 	border-top-right-radius: calc(0.25rem - 1px);
 } 
+/* .carousel-inner> .item> img {
+	height: 640px;
+	width: 360px; 
+} */
 
 .container-footer {
     position: relative;
@@ -223,6 +255,17 @@ right: 29%;
     .mensaje::placeholder{
         color: rgba(255, 255, 255, 0.781);
     }
+/* nosotros */
+.iconos {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+.iconos >a >img{
+	width: 80%;
+	height: 80%;
+
+}
 
 #particles-js {
 	height: 100vh; 
@@ -631,6 +674,46 @@ time {
 	display: flex;
 	margin-left: 4px;
 }
+
+/*Error 404*/
+.div_principal{
+	margin: 0px;
+}
+.Error404{
+	margin: 0px;
+	font-family: "marvel";
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+	
+
+}
+.error-messaje{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 100);
+}
+.error-messaje__container {
+	text-align: center;
+	color: #eee;
+	/* h1 {
+		font-size: ;
+	}
+	p {
+		font-size: 18;
+	} */
+}
+.animated {
+	animation-duration: 2.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+@keyframes bounce{
+	0%,20%,50%,80%,100%{transform: translateY(0);}
+	40%{transform: translateY(-30px);}
+	60%{transform: translateY(-15px);}
+}
+
 
 
 

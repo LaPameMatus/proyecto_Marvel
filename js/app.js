@@ -143,3 +143,4 @@ particlesJS(
     window.addEventListener("scroll", callbackFunc);
 })();
 
+
