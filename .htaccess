@@ -1,3 +1,6 @@
+<IfModule mod_rewrite.c>
 RewriteEngine on
-RewriteRule api ./error404.html
+</IfModule>
+RewriteEngine on
+RewriteRule ^ http://localhost/proyecto_Marvel/error404.html
 
